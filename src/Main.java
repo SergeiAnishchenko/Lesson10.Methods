@@ -36,7 +36,7 @@ public class Main {
         }
     }
 
-    public static void countOfDeliveryDays(int deliveryDistance) {
+    public static void countDeliveryDays(int deliveryDistance) {
         int countOfDeliveryDays = 1;
 
         if (deliveryDistance <= 20) {
@@ -72,6 +72,6 @@ public class Main {
         System.out.println("Задача 3");
 
         int deliveryDistance = 95;
-        countOfDeliveryDays(deliveryDistance);
+        countDeliveryDays(deliveryDistance);
     }
 }
